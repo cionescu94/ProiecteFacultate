@@ -1,1 +1,45 @@
-Bla blalasda sd asda
+{
+  "competitii": {
+    "competitie": [
+      {
+        "-nume": "Maratonul Bucuresti",
+        "-site": "http://bucharest-marathon.com/",
+        "-distanta": "42",
+        "-localitate": "Bucuresti",
+        "-rating": "5",
+        "-tip": "Alergare"
+      },
+      {
+        "-nume": "EcoMaratonul",
+        "-site": "http://www.ecomarathon.ro/",
+        "-distanta": "42",
+        "-localitate": "Meciu de Sus",
+        "-rating": "5",
+        "-tip": "Alergare"
+      },
+      {
+        "-nume": "Maraton Apusenilor",
+        "-site": "http://www.maratonapuseni.ro/",
+        "-distanta": "42",
+        "-localitate": "Muntele Baisorii",
+        "-rating": "5",
+        "-tip": "Alergare"
+      },
+      {
+        "-nume": "Cu bicicleta la mare",
+        "-site": "https://cubicicletalamare.com/",
+        "-distanta": "305",
+        "-localitate": "Navodari",
+        "-rating": "5",
+        "-tip": "Ciclism"
+      },
+      {
+        "-nume": "Prima evadare",
+        "-site": "http://primaevadare.ro/",
+        "-distanta": "55",
+        "-localitate": "Bucuresti",
+        "-rating": "5"
+      }
+    ]
+  }
+}
