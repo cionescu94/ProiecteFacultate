@@ -1,57 +1,100 @@
-const express = require('express')
-const app = express()
-const bodyParser = require('body-parser')
-const MongoClient = require('mongodb').MongoClient
+var express = require("express");
+var bodyParser = require("body-parser");
+var cors = require("cors");
+var Sequelize=require("sequelize");
 
-var db
+var app = express();
+app.use(bodyParser.json());
+app.use(cors());
 
-MongoClient.connect('mongodb://icristian10:icristian10@ds129462.mlab.com:29462/opiniondb', (err, database) => {
-  if (err) return console.log(err)
-  db = database
-  app.listen(process.env.PORT || 3000, () => {
-    console.log('listening on 3000')
-  })
-})
 
-app.set('view engine', 'ejs')
-app.use(bodyParser.urlencoded({extended: true}))
-app.use(bodyParser.json())
-app.use(express.static('public'))
+var nodeadmin=require('nodeadmin');
+app.use(nodeadmin(app));
 
-app.get('/', (req, res) => {
-  db.collection('opinions').find().toArray((err, result) => {
-    if (err) return console.log(err)
-    res.render('index.ejs', {opinions: result})
-  })
-})
 
-app.post('/opinions', (req, res) => {
-  db.collection('opinions').save(req.body, (err, result) => {
-    if (err) return console.log(err)
-    console.log('saved to database')
-    res.redirect('/')
-  })
-})
+var sequelize = new Sequelize('opinionsdb', 'c_ionescu', '',{
+  dialect: 'mysql', //ce tip de bd folosesc
+   host:'127.0.0.1',
+   port: 3306
+});
 
-app.put('/opinions', (req, res) => {
-  db.collection('opinions')
-  .findOneAndUpdate({name: 'James Bond'}, {
-    $set: {
-      name: req.body.name,
-      opinion: req.body.quote
+
+var Opinion=sequelize.define('opinion',{
+    id:{
+        type:Sequelize.INT,
+        field:'id'
+    },
+    name:{
+        type:Sequelize.STRING,
+        field:'name'
+        
+    },
+    opinion:{
+        type:Sequelize.STRING,
+        field:'opinion'
     }
-  }, {
-    sort: {_id: -1},
-    upsert: true
-  }, (err, result) => {
-    if (err) return res.send(err)
-    res.send(result)
-  })
-})
+},{
+     timestamps: false
+});
 
-app.delete('/opinions', (req, res) => {
-  db.collection('opinions').findOneAndDelete({name: req.body.name}, (err, result) => {
-    if (err) return res.send(500, err)
-    res.send('These were the last words from James')
-  })
-})
+
+
+
+// REST methods
+app.get('/opinions', function(req,res){
+    Opinion.findAll().then(function(opinions){
+    res.status(200).send(opinions); });
+});
+
+
+app.post('/opinions',function(req,res)
+ {Opinion.create(req.body).then(function(opinions){
+   Opinion.findById(opinions.id).then(function(opinions){
+       res.status(201).send(opinions);
+   });
+ });
+});
+
+app.get('/opinions/:id',function(req,res){
+    Opinion.findById(req.params.id).then(function(opinions){
+        if(opinions){
+            res.status(200).send(opinions);
+        }
+        else{
+            res.status(404).send();
+        }
+    })
+});
+
+app.put('/opinions/:id',function(req,res){
+    Opinion.findById(req.params.id).then(function(opinions){
+        if(opinions){
+            opinions.updateAttributes(req.body).then(function(){
+                res.status(200).send('updated');
+            }).catch(function(error){
+                console.warn(error);
+                res.status(500).send('server error');
+            });
+        }else{
+            res.status(404).send();
+        }
+    });
+});
+
+app.delete('/opinions/:id',function(req,res){
+    Opinion.findById(req.params.id).then(function(opinions)
+    {if(opinions){
+        opinions.destroy().then(function(){
+            res.status(204).send();
+        }).catch(function(error){
+            res.status(500).send('server error');
+        });
+    }else{
+        res.status(404).send();
+    }
+  });
+});
+
+app.use(express.static('views'));
+app.listen(process.env.PORT);
+
