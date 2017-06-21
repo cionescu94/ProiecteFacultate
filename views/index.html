@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Page </title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div  align="center">
+<p>Thank you for your time!</p>
+<p></p>
+
+
+<form  method="post" action="/opinions">
+  <input type="text" placeholder="name" name="name" id="name">
+  <input type="text" placeholder="opinion" name="opinion"  id="opinion">
+  <button  onclick="saveOpinion();">Submit</button>
+</form>
+
+</div>
+
+
+
+<div id="opinions"  align="center"> </div>
+
+
+</body>
+</html>
