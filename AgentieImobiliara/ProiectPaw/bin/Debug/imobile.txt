@@ -1,0 +1,21 @@
+ 
+Apartament
+40000
+2
+45
+5
+Traian 27
+ 
+Garsoniera
+25000
+1
+35
+9
+Oituz 84
+ 
+Casa
+29000
+3
+45
+0
+Bla 29

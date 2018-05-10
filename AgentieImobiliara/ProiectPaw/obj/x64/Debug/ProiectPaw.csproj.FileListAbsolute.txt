@@ -1,0 +1,14 @@
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\bin\x64\Debug\ProiectPaw.exe.config
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\bin\x64\Debug\imobile.txt
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\bin\x64\Debug\ProiectPaw.exe
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\bin\x64\Debug\ProiectPaw.pdb
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.csprojResolveAssemblyReference.cache
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.Form1.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.Form2.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.Form3.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.Form4.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.Form5.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.Properties.Resources.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.csproj.GenerateResource.Cache
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.exe
+C:\Users\Cristi\documents\visual studio 2013\Projects\ProiectPaw\ProiectPaw\obj\x64\Debug\ProiectPaw.pdb
