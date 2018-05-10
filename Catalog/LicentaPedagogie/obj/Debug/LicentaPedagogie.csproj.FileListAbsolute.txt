@@ -1,0 +1,30 @@
+c:\users\cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\bin\Debug\LicentaPedagogie.exe.config
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\bin\Debug\LicentaPedagogie.exe
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\bin\Debug\LicentaPedagogie.pdb
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.csprojResolveAssemblyReference.cache
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Absente.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Form1.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.LogIn.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Properties.Resources.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.csproj.GenerateResource.Cache
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.exe
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.pdb
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Catalog.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.CatalogAbsente.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.LogInProf.resources
+C:\Users\Cristi\documents\visual studio 2013\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Profesor.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\bin\Debug\LicentaPedagogie.exe.config
+H:\Projects\LicentaPedagogie\LicentaPedagogie\bin\Debug\LicentaPedagogie.exe
+H:\Projects\LicentaPedagogie\LicentaPedagogie\bin\Debug\LicentaPedagogie.pdb
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.csprojResolveAssemblyReference.cache
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Absente.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Catalog.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.CatalogAbsente.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Form1.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.LogIn.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.LogInProf.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Profesor.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.Properties.Resources.resources
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.csproj.GenerateResource.Cache
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.exe
+H:\Projects\LicentaPedagogie\LicentaPedagogie\obj\Debug\LicentaPedagogie.pdb
