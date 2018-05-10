@@ -1,3 +1,4 @@
 # Projects
-1. C# - Agentia Imobiliara "Speranta"
-2. C# - Catalog scolar
+1. Java - Client/Server Chat
+2. C# - Agentia Imobiliara "Speranta"
+3. C# - Catalog scolar
